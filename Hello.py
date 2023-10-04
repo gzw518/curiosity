@@ -15,7 +15,7 @@ with st.sidebar:
     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/pages/2_Chat_with_search.py)"
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
-st.title("🔎 LangChain - Chat with search")
+st.title("🔎 LangChain - Chat with search 你好")
 
 """
 In this example, we're using `StreamlitCallbackHandler` to display the thoughts and actions of an agent in an interactive Streamlit app.
@@ -24,7 +24,7 @@ Try more LangChain 🤝 Streamlit Agent examples at [github.com/langchain-ai/str
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
-        {"role": "assistant", "content": "Hi, I'm a chatbot who can search the web. How can I help you?"}
+        {"role": "assistant", "content": "你好！我是一个能上网的智能助手，能帮你上网查找资料回答问题。"}
     ]
 
 for msg in st.session_state.messages:
